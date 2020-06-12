@@ -1,0 +1,26 @@
+.info.content {
+    background-color: #ab0da6;
+    height: 100vh;
+    padding: 2rem;
+
+    .dragon {
+
+        width: 25vw;
+        border-radius: 8px;
+        border: solid #00FF40;
+        padding: 2rem;
+
+        &-ttl {
+            color: #fff;
+            padding-left: 5px;
+        }
+
+        &-text {
+            color: #fff;
+            font-size: 16px;
+            display: block;
+            padding: 5px;
+            width: 100%;
+        }
+    }
+}

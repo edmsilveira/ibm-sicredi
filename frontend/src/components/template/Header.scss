@@ -1,0 +1,17 @@
+header {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+
+    .home &,
+    .crud & {
+        margin-top: 10vw;
+    }
+
+    h1{
+        display: block;
+        text-align: center;
+        text-transform: uppercase;
+        color: #00FF40;
+    }
+}

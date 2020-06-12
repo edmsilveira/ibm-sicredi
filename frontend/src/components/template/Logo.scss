@@ -1,0 +1,17 @@
+.logo {
+    display: block;
+    padding: 5vw 30vw;
+    box-sizing: border-box;
+}
+
+.logo-img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+
+    .menu .logo & {
+        width: 100%;
+        display: block;
+    }
+    
+}

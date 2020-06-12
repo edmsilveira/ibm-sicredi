@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "nome do produto",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "longDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste iusto velit sed, veniam ea hic esse amet ducimus aliquid eos temporibus repellat possimus tenetur laudantium dolores, minus at vitae rem.",
+    "price": 29.9,
+    "img": "https://source.unsplash.com/320x240",
+    "stock": 5
+  },
+  {
+    "id": 2,
+    "name": "nome do produto 2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing eserunt.",
+    "longDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste iusto velit sed, veniam ea hic esse amet ducimus aliquid eos temporibus repellat possimus tenetur laudantium dolores, minus at vitae rem.",
+    "price": 39.9,
+    "img": "http://lorempixel.com/320/240/",
+    "stock": 2
+  },
+  {
+    "id": 3,
+    "name": "nome do produto 3",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing eia.",
+    "longDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste iusto velit sed, veniam ea hic esse amet ducimus aliquid eos temporibus repellat possimus tenetur laudantium dolores, minus at vitae rem.",
+    "price": 9.9,
+    "img": "https://unsplash.it/320/240",
+    "stock": 1
+  }
+]

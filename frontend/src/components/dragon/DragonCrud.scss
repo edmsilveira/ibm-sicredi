@@ -1,0 +1,85 @@
+.content.crud {
+    background-color: #ab0da6;
+    height: 100vh;
+}
+
+.crud {
+    overflow: hidden;
+    
+    &-modal {
+        display: block;
+        position: absolute;
+        z-index: 50;
+        background-color: rgba(0, 0, 0, 0.75);
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity ease-in-out .25s, visibility ease-in-out .25s ;
+
+        &.active {
+            opacity: 1;
+            visibility: visible;
+        }
+        &-wr {
+            background-color: #01DF3A;
+            padding: 1rem;
+            border-radius: 5px;
+            margin-left: -5rem;
+
+            h2 {
+                text-align: center;
+                display: block;
+                margin: 0 auto
+            }
+        }
+    }
+
+    &-form {
+        padding: 2rem;
+    }
+
+    &-group {
+        display: block;
+        margin: 1rem 0;
+    }
+
+    &-error {
+        color: #ffffff;
+        font-size: 16px;
+        padding: 1rem 0;
+        display: none;
+
+        &.active {
+            display: block;
+        }
+    }
+
+    &-input {
+        font-size: 16px;
+        color: #000;
+        border: none;
+        border-radius: 8px;
+        padding: 1rem;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    .save-btn {
+        border: none;
+        padding: 1rem;
+        border-radius: 8px;
+        background-color: #00FF40;
+        color: #fff;
+        font-size: 16px;
+
+        &:hover {
+            cursor: pointer;
+            background: #fff;
+            color: #00FF40;
+        }
+    }
+}
