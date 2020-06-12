@@ -6,19 +6,15 @@ Desenvolvido em ReactJS + Hooks(useContext, useEffect, useState) + React Router
 
 npm install
 
-## Available Scripts
+## Scripts
 
-In the project directory, you can run:
+Dev - npm run dev
+Produção - npm run prod
 
-npm run dev as local run for development
-
-Then go to localhost:8080
-
-or npm run prod to run on production
-
+http://localhost:8080
 
 ## Webpack and Babel Config
-- This project use webpack v4 and babel 8.1
+- Utilizando webpack v4 e babel 8.1
 
 
 
