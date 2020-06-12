@@ -1,3 +1,5 @@
+@import '../sass/mixins';
+
 body {
     padding: 0;
     margin: 0;
@@ -9,6 +11,12 @@ body {
     &.lock {
         overflow-y: hidden;
         position: absolute;
+    }
+}
+#app {
+    @include sm {
+        display: block;
+        overflow-x: hidden;
     }
 }
 
@@ -48,6 +56,20 @@ body {
     background: #00FF40;
     opacity: .9;
     display: flex;
+
+    @include sm {
+        display: block;
+    }
+
+    @include md { 
+        width: 20vw;
+    }
+
+    @include lg {
+        display: flex;
+        width: initial;
+        justify-content: center;
+    }
 
     &:focus {
         outline:none;

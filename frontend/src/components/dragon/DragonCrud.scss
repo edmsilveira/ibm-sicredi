@@ -1,3 +1,5 @@
+@import '../../sass/mixins';
+
 .content.crud {
     background-color: #ab0da6;
     height: 100vh;
@@ -5,6 +7,10 @@
 
 .crud {
     overflow: hidden;
+
+    @include sm {
+        overflow: initial;
+    }
     
     &-modal {
         display: block;
@@ -28,10 +34,19 @@
             border-radius: 5px;
             margin-left: -5rem;
 
+            @include sm {
+                margin-left: initial;
+            }
+
             h2 {
                 text-align: center;
                 display: block;
-                margin: 0 auto
+                margin: 0 auto;
+                
+                @include sm {
+                    width: 100%;
+                    font-size: 12px;
+                }
             }
         }
     }

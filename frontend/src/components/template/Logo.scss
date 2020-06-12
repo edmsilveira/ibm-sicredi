@@ -1,7 +1,17 @@
+@import '../../sass/mixins';
+
 .logo {
     display: block;
     padding: 5vw 30vw;
     box-sizing: border-box;
+
+    @include sm {
+        padding: 5vw 10vw;
+    }
+
+    @include lg {
+        padding: 5vw 30vw;
+    }
 }
 
 .logo-img {

@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react'
 import api from '../api/api'
 import history from '../history'
 
-export default function useAuth() {
+const useAuth = () => {
   const [authenticated, setAuthenticated] = useState(false)
   const [hasError, setHasError] = useState(false)
   const [loading, setLoading] = useState(true)
@@ -18,7 +18,7 @@ export default function useAuth() {
     setLoading(false)
   }, []);
   
-  async function handleLogin(data) {
+  const handleLogin = async (data) => {
 
     if(data.username == 'admin' && data.password == 'admin') {
 
@@ -34,7 +34,7 @@ export default function useAuth() {
     
   }
 
-  function handleLogout() {
+  const handleLogout = () => {
     setAuthenticated(false)
     setHasError(false)
     localStorage.removeItem('token')
@@ -44,3 +44,5 @@ export default function useAuth() {
   
   return { authenticated, loading, hasError, handleLogin, handleLogout }
 }
+
+export default useAuth
