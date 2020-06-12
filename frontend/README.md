@@ -1,3 +1,7 @@
+## About
+
+Desenvolvido em ReactJS + Hooks(useContext, useEffect, useState) + React Router
+
 ## Install
 
 npm install
