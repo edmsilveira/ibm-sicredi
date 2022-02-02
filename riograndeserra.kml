@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>RIO GRANDE DA SERRA - SUZANO.kml</name>
+	<StyleMap id="trb7981120">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#trb7982140</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#trb7983100</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="trb7982140">
+		<BalloonStyle>
+			<text><![CDATA[<font font size='3' color="#aa0000"><b>$[name]</b></font>
+                  <table border='1' padding='1'>$[description]</table>                  
+                  <br><a href='http://shape2earth.com'><b>Shape2Earth</b></a>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff9d5900</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff605ca9</color>
+		</PolyStyle>
+	</Style>
+	<Style id="trb7983100">
+		<BalloonStyle>
+			<text><![CDATA[<font font size='3' color="#aa0000"><b>$[name]</b></font>
+                  <table border='1' padding='1'>$[description]</table>                  
+                  <br><a href='http://shape2earth.com'><b>Shape2Earth</b></a>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff9d5900</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff605ca9</color>
+		</PolyStyle>
+	</Style>
+	<Placemark id="173">
+		<name>RIO GRANDE DA SERRA - SUZANO</name>
+		<Snippet maxLines="0"></Snippet>
+		<description><![CDATA[<br><br><table border="1"padding="1"width="97%"><tr><td>OBJECTID_1:</td><td>174</td></tr><tr><td>OBJECTID:</td><td>177</td></tr><tr><td>SIGLA:</td><td>MRS</td></tr><tr><td>LINHA:</td><td>RIO GRANDE DA SERRA - SUZANO</td></tr><tr><td>COD_LINHA:</td><td>0019</td></tr><tr><td>CODIGO_1:</td><td>IRG</td></tr><tr><td>CODIGO_2:</td><td>OSU</td></tr><tr><td>ESTACAO_1:</td><td>RIO GRANDE DA SERRA</td></tr><tr><td>ESTACAO_2:</td><td>SUZANO</td></tr><tr><td>KM_1:</td><td>41</td></tr><tr><td>KM_2:</td><td>70</td></tr><tr><td>RD_1:</td><td>23830</td></tr><tr><td>RD_2:</td><td>23834</td></tr><tr><td>len:</td><td>0</td></tr><tr><td>Shape_Leng:</td><td>0,24763877</td></tr><tr><td>CodigoTrec:</td><td>174</td></tr><tr><td>NomeTrecho:</td><td>RIO GRANDE DA SERRA - SUZANO</td></tr><tr><td>Shape_len:</td><td>0,247638778643</td></tr></table>]]></description>
+		<styleUrl>#trb7981120</styleUrl>
+		<LineString>
+			<extrude>1</extrude>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-46.3916669999999,-23.7436109999999,0 -46.3876589999999,-23.7294269999999,0 -46.376999,-23.7155069999999,0 -46.3729189999999,-23.7037869999999,0 -46.3712189999999,-23.692807,0 -46.36924499999991,-23.6871839999999,0 -46.3630729999999,-23.6831869999999,0 -46.348813,-23.671197,0 -46.345278,-23.6666669999999,0 -46.3376239999999,-23.6568569999999,0 -46.3349239999999,-23.6506969999999,0 -46.3297439999999,-23.6438769999999,0 -46.32310399999991,-23.637717,0 -46.31490400000001,-23.6325869999999,0 -46.3096199999999,-23.6235669999999,0 -46.3067699999999,-23.6207069999999,0 -46.3046999999999,-23.6175469999999,0 -46.3029199999999,-23.6111969999999,0 -46.3016199999999,-23.6018169999999,0 -46.29847,-23.5789469999999,0 -46.2933499999999,-23.5665769999999,0 -46.29329,-23.559997,0 -46.2939699999999,-23.5529369999999,0 -46.2958299999999,-23.5458169999999,0 -46.2975299999999,-23.5410869999999,0 -46.29843999999989,-23.5358769999999,0 -46.3006499999999,-23.530797,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>

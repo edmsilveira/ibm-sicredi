@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>BRISAMAR-ITAGUAI.kml</name>
+	<StyleMap id="trb7981120">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#trb7982140</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#trb7983100</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="trb7982140">
+		<BalloonStyle>
+			<text><![CDATA[<font font size='3' color="#aa0000"><b>$[name]</b></font>
+                  <table border='1' padding='1'>$[description]</table>                  
+                  <br><a href='http://shape2earth.com'><b>Shape2Earth</b></a>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff9d5900</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff605ca9</color>
+		</PolyStyle>
+	</Style>
+	<Style id="trb7983100">
+		<BalloonStyle>
+			<text><![CDATA[<font font size='3' color="#aa0000"><b>$[name]</b></font>
+                  <table border='1' padding='1'>$[description]</table>                  
+                  <br><a href='http://shape2earth.com'><b>Shape2Earth</b></a>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff9d5900</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff605ca9</color>
+		</PolyStyle>
+	</Style>
+	<Placemark id="164">
+		<name>BRISAMAR-ITAGUAI</name>
+		<Snippet maxLines="0"></Snippet>
+		<description><![CDATA[<br><br><table border="1"padding="1"width="97%"><tr><td>OBJECTID_1:</td><td>165</td></tr><tr><td>OBJECTID:</td><td>168</td></tr><tr><td>SIGLA:</td><td>MRS</td></tr><tr><td>LINHA:</td><td>BRISAMAR-ITAGUAI</td></tr><tr><td>COD_LINHA:</td><td>0008</td></tr><tr><td>CODIGO_1:</td><td>FBA</td></tr><tr><td>CODIGO_2:</td><td>HIT</td></tr><tr><td>ESTACAO_1:</td><td>BRISAMAR</td></tr><tr><td>ESTACAO_2:</td><td>ITAGUAI</td></tr><tr><td>KM_1:</td><td>33</td></tr><tr><td>KM_2:</td><td>40</td></tr><tr><td>RD_1:</td><td>22170</td></tr><tr><td>RD_2:</td><td>22180</td></tr><tr><td>len:</td><td>0</td></tr><tr><td>Shape_Leng:</td><td>0,0327247</td></tr><tr><td>CodigoTrec:</td><td>165</td></tr><tr><td>NomeTrecho:</td><td>BRISAMAR-ITAGUAI</td></tr><tr><td>Shape_len:</td><td>0,0327247019078</td></tr></table>]]></description>
+		<styleUrl>#trb7981120</styleUrl>
+		<LineString>
+			<extrude>1</extrude>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-43.811821,-22.8804029999999,0 -43.797682,-22.8752789999999,0 -43.7814689999999,-22.8682129999999,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>

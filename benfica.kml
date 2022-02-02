@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>BENFICA - TERM PARAIBUNA DE METAIS.kml</name>
+	<StyleMap id="trb7981120">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#trb7982140</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#trb7983100</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="trb7982140">
+		<BalloonStyle>
+			<text><![CDATA[<font font size='3' color="#aa0000"><b>$[name]</b></font>
+                  <table border='1' padding='1'>$[description]</table>                  
+                  <br><a href='http://shape2earth.com'><b>Shape2Earth</b></a>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff9d5900</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff605ca9</color>
+		</PolyStyle>
+	</Style>
+	<Style id="trb7983100">
+		<BalloonStyle>
+			<text><![CDATA[<font font size='3' color="#aa0000"><b>$[name]</b></font>
+                  <table border='1' padding='1'>$[description]</table>                  
+                  <br><a href='http://shape2earth.com'><b>Shape2Earth</b></a>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff9d5900</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff605ca9</color>
+		</PolyStyle>
+	</Style>
+	<Placemark id="159">
+		<name>BENFICA - TERM PARAIBUNA DE METAIS</name>
+		<Snippet maxLines="0"></Snippet>
+		<description><![CDATA[<br><br><table border="1"padding="1"width="97%"><tr><td>OBJECTID_1:</td><td>160</td></tr><tr><td>OBJECTID:</td><td>163</td></tr><tr><td>SIGLA:</td><td>MRS</td></tr><tr><td>LINHA:</td><td>BENFICA - TERM PARAIBUNA DE METAIS</td></tr><tr><td>COD_LINHA:</td><td>0002</td></tr><tr><td>CODIGO_1:</td><td>FBF</td></tr><tr><td>CODIGO_2:</td><td>F36</td></tr><tr><td>ESTACAO_1:</td><td>BENFICA</td></tr><tr><td>ESTACAO_2:</td><td>TERMINAL PARAIBUNA DE METAIS</td></tr><tr><td>KM_1:</td><td>227</td></tr><tr><td>KM_2:</td><td>233</td></tr><tr><td>RD_1:</td><td>21700</td></tr><tr><td>RD_2:</td><td>21710</td></tr><tr><td>len:</td><td>0</td></tr><tr><td>Shape_Leng:</td><td>0,05993307</td></tr><tr><td>CodigoTrec:</td><td>160</td></tr><tr><td>NomeTrecho:</td><td>BENFICA - TERM PARAIBUNA DE METAIS</td></tr><tr><td>Shape_len:</td><td>0,0599330759848</td></tr></table>]]></description>
+		<styleUrl>#trb7981120</styleUrl>
+		<LineString>
+			<extrude>1</extrude>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-43.430045,-21.676216,0 -43.4894509999999,-21.6682849999999,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>

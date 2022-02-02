@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>E.S.GUALBERTO - BRAS.kml</name>
+	<StyleMap id="trb7981120">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#trb7982140</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#trb7983100</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="trb7982140">
+		<BalloonStyle>
+			<text><![CDATA[<font font size='3' color="#aa0000"><b>$[name]</b></font>
+                  <table border='1' padding='1'>$[description]</table>                  
+                  <br><a href='http://shape2earth.com'><b>Shape2Earth</b></a>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff9d5900</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff605ca9</color>
+		</PolyStyle>
+	</Style>
+	<Style id="trb7983100">
+		<BalloonStyle>
+			<text><![CDATA[<font font size='3' color="#aa0000"><b>$[name]</b></font>
+                  <table border='1' padding='1'>$[description]</table>                  
+                  <br><a href='http://shape2earth.com'><b>Shape2Earth</b></a>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff9d5900</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff605ca9</color>
+		</PolyStyle>
+	</Style>
+	<Placemark id="170">
+		<name>E.S.GUALBERTO - BRAS</name>
+		<Snippet maxLines="0"></Snippet>
+		<description><![CDATA[<br><br><table border="1"padding="1"width="97%"><tr><td>OBJECTID_1:</td><td>171</td></tr><tr><td>OBJECTID:</td><td>174</td></tr><tr><td>SIGLA:</td><td>MRS</td></tr><tr><td>LINHA:</td><td>E.S.GUALBERTO - BRAS</td></tr><tr><td>COD_LINHA:</td><td>0015</td></tr><tr><td>CODIGO_1:</td><td>OSG</td></tr><tr><td>CODIGO_2:</td><td>OBR</td></tr><tr><td>ESTACAO_1:</td><td>E.S.GUALBERTO</td></tr><tr><td>ESTACAO_2:</td><td>BRAS</td></tr><tr><td>KM_1:</td><td>0</td></tr><tr><td>KM_2:</td><td>6</td></tr><tr><td>RD_1:</td><td>23600</td></tr><tr><td>RD_2:</td><td>23611</td></tr><tr><td>len:</td><td>0</td></tr><tr><td>Shape_Leng:</td><td>0,04765892</td></tr><tr><td>CodigoTrec:</td><td>171</td></tr><tr><td>NomeTrecho:</td><td>E.S.GUALBERTO - BRAS</td></tr><tr><td>Shape_len:</td><td>0,0476589209325</td></tr></table>]]></description>
+		<styleUrl>#trb7981120</styleUrl>
+		<LineString>
+			<extrude>1</extrude>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-46.56873799999989,-23.5314079999999,0 -46.575938,-23.5324879999999,0 -46.6004879999999,-23.5376479999999,0 -46.6105679999999,-23.5415979999999,0 -46.6141019999999,-23.544328,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>

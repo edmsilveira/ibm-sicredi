@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>SUZANO- E.S.GUALBERTO.kml</name>
+	<StyleMap id="trb7981120">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#trb7982140</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#trb7983100</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="trb7982140">
+		<BalloonStyle>
+			<text><![CDATA[<font font size='3' color="#aa0000"><b>$[name]</b></font>
+                  <table border='1' padding='1'>$[description]</table>                  
+                  <br><a href='http://shape2earth.com'><b>Shape2Earth</b></a>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff9d5900</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff605ca9</color>
+		</PolyStyle>
+	</Style>
+	<Style id="trb7983100">
+		<BalloonStyle>
+			<text><![CDATA[<font font size='3' color="#aa0000"><b>$[name]</b></font>
+                  <table border='1' padding='1'>$[description]</table>                  
+                  <br><a href='http://shape2earth.com'><b>Shape2Earth</b></a>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff9d5900</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff605ca9</color>
+		</PolyStyle>
+	</Style>
+	<Placemark id="169">
+		<name>SUZANO- E.S.GUALBERTO</name>
+		<Snippet maxLines="0"></Snippet>
+		<description><![CDATA[<br><br><table border="1"padding="1"width="97%"><tr><td>OBJECTID_1:</td><td>170</td></tr><tr><td>OBJECTID:</td><td>173</td></tr><tr><td>SIGLA:</td><td>MRS</td></tr><tr><td>LINHA:</td><td>SUZANO- E.S.GUALBERTO</td></tr><tr><td>COD_LINHA:</td><td>0014</td></tr><tr><td>CODIGO_1:</td><td>OSU</td></tr><tr><td>CODIGO_2:</td><td>OSG</td></tr><tr><td>ESTACAO_1:</td><td>SUZANO</td></tr><tr><td>ESTACAO_2:</td><td>E.S.GUALBERTO</td></tr><tr><td>KM_1:</td><td>113</td></tr><tr><td>KM_2:</td><td>145</td></tr><tr><td>RD_1:</td><td>23580</td></tr><tr><td>RD_2:</td><td>23599</td></tr><tr><td>len:</td><td>0</td></tr><tr><td>Shape_Leng:</td><td>0,29496021</td></tr><tr><td>CodigoTrec:</td><td>170</td></tr><tr><td>NomeTrecho:</td><td>SUZANO- E.S.GUALBERTO</td></tr><tr><td>Shape_len:</td><td>0,294960216812</td></tr></table>]]></description>
+		<styleUrl>#trb7981120</styleUrl>
+		<LineString>
+			<extrude>1</extrude>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-46.3006499999999,-23.530797,0 -46.30209999999991,-23.5307469999999,0 -46.3085599999999,-23.5281569999999,0 -46.3129099999999,-23.524537,0 -46.3166199999999,-23.5227069999999,0 -46.3170399999999,-23.5225669999999,0 -46.3188999999999,-23.521947,0 -46.32438999999991,-23.5200969999999,0 -46.3303699999999,-23.5176569999999,0 -46.3334399999999,-23.5164369999999,0 -46.3355799999999,-23.5191169999999,0 -46.3407999999999,-23.5228169999999,0 -46.3522299999999,-23.5298969999999,0 -46.3587799999999,-23.5361369999999,0 -46.36285999999999,-23.5413669999999,0 -46.3761,-23.5500769999999,0 -46.38766999999991,-23.5507169999999,0 -46.3966699999999,-23.547457,0 -46.4045989999999,-23.5424869999999,0 -46.4135789999999,-23.537257,0 -46.4147989999999,-23.5364369999999,0 -46.42017899999991,-23.5327869999999,0 -46.42889899999991,-23.5280569999999,0 -46.4379189999999,-23.5260169999999,0 -46.4437689999999,-23.5267069999999,0 -46.4498989999999,-23.528117,0 -46.4592289999999,-23.5307369999999,0 -46.4672189999999,-23.5331169999999,0 -46.4759889999999,-23.5330369999999,0 -46.4852689999999,-23.530997,0 -46.4945289999999,-23.5274769999999,0 -46.50324899999989,-23.5229869999999,0 -46.5146189999999,-23.51905799999991,0 -46.5204089999999,-23.5193279999999,0 -46.5262189999999,-23.5210179999999,0 -46.5372289999999,-23.523748,0 -46.5493089999999,-23.5268979999999,0 -46.55666799999991,-23.5296079999999,0 -46.56873799999989,-23.5314079999999,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>
