@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>ÁGUAS CLARAS.kml</name>
+	<StyleMap id="trb7981120">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#trb7982140</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#trb7983100</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="trb7982140">
+		<BalloonStyle>
+			<text><![CDATA[<font font size='3' color="#aa0000"><b>$[name]</b></font>
+                  <table border='1' padding='1'>$[description]</table>                  
+                  <br><a href='http://shape2earth.com'><b>Shape2Earth</b></a>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff9d5900</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff605ca9</color>
+		</PolyStyle>
+	</Style>
+	<Style id="trb7983100">
+		<BalloonStyle>
+			<text><![CDATA[<font font size='3' color="#aa0000"><b>$[name]</b></font>
+                  <table border='1' padding='1'>$[description]</table>                  
+                  <br><a href='http://shape2earth.com'><b>Shape2Earth</b></a>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff9d5900</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff605ca9</color>
+		</PolyStyle>
+	</Style>
+	<Placemark id="166">
+		<name>ÁGUAS CLARAS</name>
+		<Snippet maxLines="0"></Snippet>
+		<description><![CDATA[<br><br><table border="1"padding="1"width="97%"><tr><td>OBJECTID_1:</td><td>167</td></tr><tr><td>OBJECTID:</td><td>170</td></tr><tr><td>SIGLA:</td><td>MRS</td></tr><tr><td>LINHA:</td><td>ÁGUAS CLARAS</td></tr><tr><td>COD_LINHA:</td><td>0010</td></tr><tr><td>CODIGO_1:</td><td>FIE</td></tr><tr><td>CODIGO_2:</td><td>FAG</td></tr><tr><td>ESTACAO_1:</td><td>IBIRITÉ</td></tr><tr><td>ESTACAO_2:</td><td>AGUAS CLARAS</td></tr><tr><td>KM_1:</td><td>562</td></tr><tr><td>KM_2:</td><td>583</td></tr><tr><td>RD_1:</td><td>22530</td></tr><tr><td>RD_2:</td><td>22560</td></tr><tr><td>len:</td><td>0</td></tr><tr><td>Shape_Leng:</td><td>0,16768753</td></tr><tr><td>CodigoTrec:</td><td>167</td></tr><tr><td>NomeTrecho:</td><td>ÁGUAS CLARAS</td></tr><tr><td>Shape_len:</td><td>0,167687531484</td></tr></table>]]></description>
+		<styleUrl>#trb7981120</styleUrl>
+		<LineString>
+			<extrude>1</extrude>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-44.0613889999999,-20.0208329999999,0 -44.050585,-20.0329839999999,0 -44.0442949999999,-20.0340939999999,0 -44.0397249999999,-20.031784,0 -44.0347049999999,-20.0249139999999,0 -44.0287149999999,-20.0182639999999,0 -44.0166249999999,-20.011274,0 -44.0082749999999,-20.009474,0 -44.0063049999999,-20.0090539999999,0 -43.9957359999999,-20.0040639999999,0 -43.9926759999999,-20.0018139999999,0 -43.9916759999999,-20.0005939999999,0 -43.990676,-19.9993739999999,0 -43.9849959999999,-19.9934939999999,0 -43.9827759999999,-19.9917639999999,0 -43.9675459999999,-19.9848039999999,0 -43.954696,-19.978924,0 -43.9506809999999,-19.9772939999999,0 -43.9466659999999,-19.9756639999999,0 -43.9200159999999,-19.9648339999999,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>
