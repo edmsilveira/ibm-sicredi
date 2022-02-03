@@ -4,11 +4,11 @@
 	<name>Trecho - Andaime x Jeceaba.kml</name>
 	<Style id="sn_ylw-pushpin1221110">
 		<LineStyle>
-			<color>ff9d5900</color>
+			<color>0</color>
 			<width>3.9</width>
 		</LineStyle>
 		<PolyStyle>
-			<fill>0</fill>
+			<color>ff605ca9</color>
 		</PolyStyle>
 	</Style>
 	<StyleMap id="sn_ylw-pushpin1221100">
@@ -23,11 +23,11 @@
 	</StyleMap>
 	<Style id="sn_ylw-pushpin1221120">
 		<LineStyle>
-			<color>ff9d5900</color>
+			<color>0</color>
 			<width>3.9</width>
 		</LineStyle>
 		<PolyStyle>
-			<fill>0</fill>
+			<color>ff605ca9</color>
 		</PolyStyle>
 	</Style>
 	<Placemark>
