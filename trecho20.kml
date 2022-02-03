@@ -4,11 +4,11 @@
 	<name>Trecho Suzano x Jacareí.kml</name>
 	<Style id="sn_ylw-pushpin15010">
 		<LineStyle>
-			<color>3342ff</color>
-			<width>2.5</width>
+			<color>ff9d5900</color>
+			<width>3.9</width>
 		</LineStyle>
 		<PolyStyle>
-			<fill>3342ff</fill>
+			<fill>0</fill>
 		</PolyStyle>
 	</Style>
 	<Placemark>
