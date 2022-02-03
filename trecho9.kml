@@ -4,11 +4,11 @@
 	<name>Trecho - Japeri x Rio de Janeiro.kml</name>
 	<Style id="sn_ylw-pushpin53040">
 		<LineStyle>
-			<color>ff00ffff</color>
+			<color>ff9d5900</color>
 			<width>3.9</width>
 		</LineStyle>
 		<PolyStyle>
-			<color>ff605ca9</color>
+			<fill>0</fill>
 		</PolyStyle>
 	</Style>
 	<StyleMap id="sn_ylw-pushpin53070">
@@ -23,11 +23,11 @@
 	</StyleMap>
 	<Style id="sn_ylw-pushpin53016">
 		<LineStyle>
-			<color>ff00ffff</color>
+			<color>ff9d5900</color>
 			<width>3.9</width>
 		</LineStyle>
 		<PolyStyle>
-			<color>ff605ca9</color>
+			<fill>0</fill>
 		</PolyStyle>
 	</Style>
 	<Placemark id="ViaFérrea">

@@ -14,20 +14,20 @@
 	</StyleMap>
 	<Style id="sn_ylw-pushpin291000">
 		<LineStyle>
-			<color>ffff00aa</color>
+			<color>ff9d5900</color>
 			<width>3.9</width>
 		</LineStyle>
 		<PolyStyle>
-			<color>ff605ca9</color>
+			<fill>0</fill>
 		</PolyStyle>
 	</Style>
 	<Style id="sn_ylw-pushpin15100">
 		<LineStyle>
-			<color>ffff00aa</color>
+			<color>ff9d5900</color>
 			<width>3.9</width>
 		</LineStyle>
 		<PolyStyle>
-			<color>ff605ca9</color>
+			<fill>0</fill>
 		</PolyStyle>
 	</Style>
 	<Placemark>

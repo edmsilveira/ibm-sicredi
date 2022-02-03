@@ -20,11 +20,11 @@
 			<scale>0.6</scale>
 		</LabelStyle>
 		<LineStyle>
-			<color>ff0000ff</color>
+			<color>ff9d5900</color>
 			<width>3.9</width>
 		</LineStyle>
 		<PolyStyle>
-			<color>ff605ca9</color>
+			<fill>0</fill>
 		</PolyStyle>
 	</Style>
 	<Style id="sn_ylw-pushpin128211">
@@ -35,11 +35,11 @@
 			<scale>0.6</scale>
 		</LabelStyle>
 		<LineStyle>
-			<color>ff0000ff</color>
+			<color>ff9d5900</color>
 			<width>3.9</width>
 		</LineStyle>
 		<PolyStyle>
-			<color>ff605ca9</color>
+			<fill>0</fill>
 		</PolyStyle>
 	</Style>
 	<Placemark>
