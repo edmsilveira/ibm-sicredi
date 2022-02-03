@@ -4,11 +4,11 @@
 	<name>Trecho Poá x São Paulo.kml</name>
 	<Style id="sn_ylw-pushpin16100">
 		<LineStyle>
-			<color>ff000055</color>
+			<color>ff9d5900</color>
 			<width>3.9</width>
 		</LineStyle>
 		<PolyStyle>
-			<color>ff605ca9</color>
+			<fill>0</fill>
 		</PolyStyle>
 	</Style>
 	<StyleMap id="sn_ylw-pushpin2211">
@@ -23,11 +23,11 @@
 	</StyleMap>
 	<Style id="sn_ylw-pushpin2920">
 		<LineStyle>
-			<color>ff000055</color>
+			<color>ff9d5900</color>
 			<width>3.9</width>
 		</LineStyle>
 		<PolyStyle>
-			<color>ff605ca9</color>
+			<fill>0</fill>
 		</PolyStyle>
 	</Style>
 	<Placemark>
